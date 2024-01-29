@@ -1,0 +1,132 @@
+import { StyleSheet } from "react-native";
+import colors from "../colors";
+const style=(height,width)=>StyleSheet.create(
+
+{
+    container:{
+        marginVertical:10,
+        padding:15,
+        overflow:'hidden'
+    },
+    profileIcon:{
+        flexDirection:'row',
+        alignItems:'center',
+        borderBottomWidth:1,
+        borderBottomColor:'black',
+        paddingVertical:24,  
+    },
+    profileIcon1:{
+            width:75,
+            height:75,
+            borderRadius:75/2,
+            backgroundColor:'green',
+            justifyContent:'center',
+            alignItems:'center',
+    },
+    profileName:{
+        fontSize:25,
+        fontFamily:'Lato-Regular',
+    },
+    DrawerElements:{
+           flexDirection:'row',
+            alignItems:'center',
+            paddingVertical:5,
+            justifyContent:'space-between'
+        },
+        DrawerElements1:
+        {
+            flexDirection:'row',
+            alignItems:'center',
+        },
+        DrawerIcon:{
+            
+                width:25,
+                height:25,
+                marginRight:20,
+                resizeMode:'contain',
+        },
+        arrow:{
+            overflow:'hidden',
+            borderRadius:15,
+            backgroundColor:colors.seconderyGreen,
+
+        },
+        DrawerName:{
+            
+                fontFamily:'Lato-Bold',
+                fontSize:20,
+                
+        },
+        arrowIcon:{
+            width:25,
+            height:25,
+            resizeMode:'contain',
+        },
+        Logout:{
+                borderColor:'black',
+                backgroundColor:'#90EE90',
+                borderWidth:1,
+                width:'50%',
+                paddingVertical:.1,
+                paddingHorizontal:.1,
+                backgroundColor:'white',
+                borderRadius:45,
+                justifyContent:'center',
+                alignItems:'center',
+                flexDirection:'row',
+            },
+            LogoutText:{
+                fontFamily:'Lato-Bold',
+                    fontSize:20,
+                    paddingBottom:15
+                    ,marginTop:12,
+                    marginLeft:10,
+                    },
+                    supportView:{
+                        borderRadius:20,
+                        backgroundColor:'#90EE90',
+                        padding:15,
+                        marginVertical:15,
+
+                    },
+                    ContactView:{
+                        borderColor:'black',
+                        backgroundColor:'#008631',
+                        borderWidth:1,
+                        width:'50%',
+                        paddingVertical:1,
+                        paddingHorizontal:1,
+                        borderRadius:45,
+                        justifyContent:'center',
+                        alignItems:'center',
+                        flexDirection:'row',
+                    },
+                      image:
+                    {
+                    width:width*0.2,
+                    height:width*0.2,
+                    borderRadius:width*0.15,
+                    resizeMode:'contain',
+                    },
+                    signoutTouch:{
+                        borderColor:'black',
+                        backgroundColor:'#90EE90',
+                        borderWidth:1,
+                        width:'50%',
+                        paddingVertical:.1,
+                        paddingHorizontal:.1,
+                        borderRadius:45,
+                        justifyContent:'center',
+                        alignItems:'center',
+                        flexDirection:'row'
+                    },
+                    signoutText:{fontFamily:'Lato-Bold',
+                    fontSize:20,
+                    paddingBottom:15,marginTop:12,
+                    marginLeft:19
+                    }
+            }
+        
+
+)
+export default style
