@@ -9,7 +9,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [FIRApp configure];
-[GMSServices provideAPIKey:@"AIzaSyBxr99617iBz0j-ao6gzTTl_kq0TuvZwg4"]; // add this line using the api key obtained from Google Console
+[GMSServices provideAPIKey:@""]; // add this line using the api key obtained from Google Console
 
   self.moduleName = @"InKart";
   // You can add your custom initial props in the dictionary below.
